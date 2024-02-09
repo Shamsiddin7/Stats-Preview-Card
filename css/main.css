@@ -1,0 +1,111 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-indigo: #AB5CDB;
+    --dark-indigo: #1B1937;
+    --bg-color: #0A0C1C;
+    --white: #FFF;
+    --inter: "Inter";
+    --lexend-deca: "Lexend Deca";
+}
+
+body {
+    background: var(--bg-color);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    height: 446px;
+    border-radius: 8px;
+    background: var(--dark-indigo);
+    box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.20);
+    overflow: hidden;
+}
+
+.left-side {
+    margin-top: 72px;
+    margin-left: 72px;
+    margin-right: 110px;
+}
+
+.card-title {
+    max-width: 403px;
+    width: 100%;
+    color: var(--white);
+    font-family: var(--inter);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.card-title-span {
+    color: var(--primary-indigo);
+    font-family: var(--inter);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.card-desc {
+    max-width: 374px;
+    width: 100%;
+    color: #FFF;
+    font-family: var(--inter);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 25px;
+    opacity: 0.75;
+}
+
+.card-about {
+    display: flex;
+    margin-top: 72px;
+    text-align: left;
+    column-gap: 80px;
+}
+
+.card-info-title {
+    color: #FFF;
+    font-family: var(--inter);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-info-desc {
+    color: #FFF;
+    font-family: var(--lexend-deca);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+}
